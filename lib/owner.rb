@@ -79,6 +79,6 @@ class Owner
     @pets.each do |type, pet|
   binding.pry
     end
-  
+
   end
 end
