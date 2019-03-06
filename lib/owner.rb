@@ -75,6 +75,6 @@ class Owner
     end
   end
 
-  # def sell_pets
-  #   @pets.collect do
+  def sell_pets
+    @pets.collect do
 end
