@@ -68,5 +68,10 @@ class Owner
     end
   end
 
+  def feed_fish
+    fish = @pets[:fishes]
+    fish.collect do |fish|
+      fish.mood = "happy"
+    end
   end
 end
