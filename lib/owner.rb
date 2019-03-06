@@ -59,6 +59,7 @@ class Owner
     dogs.collect do |dog|
       dog.mood = "happy"
     end
+  end
 
   def play_with_cats
     cats = @pets[:cats]
