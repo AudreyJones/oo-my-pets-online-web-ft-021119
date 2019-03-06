@@ -77,7 +77,7 @@ class Owner
 
   def sell_pets
     @pets.each do |type, pet|
-      
+
     end
     binding.pry
   end
