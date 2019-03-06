@@ -78,4 +78,5 @@ class Owner
   def sell_pets
     @pets.each {type, pet}
     binding.pry
+  end
 end
